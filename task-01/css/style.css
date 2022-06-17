@@ -108,3 +108,66 @@ body {
 .main-section__btn {
     padding: 15px 40px;
 }
+
+/* RANGE SECTION
+========================== */
+.range-section-list {
+    padding: 0px 198px 129px 197px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 35px 67px 35px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #23A6F0;
+}
+
+.card:hover .path1{
+    fill: white;
+}
+
+.card:hover .path2{
+    fill: #23A6F0;
+}
+
+.card:hover .card__title,
+.card:hover .card__text {
+    color: #FFFFFF;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.strip {
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+}
+
+.card:hover .strip {
+    background-color: #FFFFFF;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
