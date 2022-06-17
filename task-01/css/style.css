@@ -69,3 +69,42 @@ body {
 .arrow-right{
     margin-left: 15px;
 }
+
+/* MAIN SECTION
+========================== */
+.main-section {
+    background: url(../img/main-section/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main-section__cont {
+    padding: 65px 370.5px 120px 370.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-section__title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.main-section__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 40px 0 132px 0;
+}
+
+.main-section__btn {
+    padding: 15px 40px;
+}
